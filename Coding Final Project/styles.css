@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*
+	Website for Celesta Ayla, Final Project for CIS 155
+	Cascading Styles Sheet - Styling
+	Name : Amelia Forcier
+	Start Date: April 25th, 2021
+	End Date:
+	*/
+/* Background color */
+html {
+	background-color: rgba(234, 234, 234, 0.5);
+	padding: 10px, 10px, 10px, 10px;
+}
+/* Nav Details*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* text styles */
+h1 {
+	text-align: center;
+	border-style: solid
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+	text-align: center;
+	/*font-size: px;*/
+}
+
+/* image styles */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.avatar {
+	border-radius: 50%;
+	width: 25%;
+	float: left;
+}
+/*other things*/
+nav {
+	position: fixed;
+	width: 25%
+	height: 100%
+}
+footer {
+	text-align: center
+}
+
+aside { 
+	display: block;
+	text-align: right;
+}
